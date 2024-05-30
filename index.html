@@ -37,7 +37,10 @@
 
     <main class="container mt-4">
         <div class="row">
-            <div class="col-lg-8">
+          <div class="col-lg-2">
+
+          </div>
+            <div class="col-lg-6">
               <div class="carousel slide my-3" id="citrusCarousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#citrusCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -48,21 +51,21 @@
                   <div class="carousel-item active">
                     <img src="./images/slider1.jpg" alt="" class="d-block w-100">
                     <div class="carousel-caption d-block d-md-block">
-                      <h5>Zesty Sunshine</h5>
+                      <h5 class="fontw-900">Zesty Sunshine</h5>
                       <p>Bright, vibrant citrus fruits bursting with flavor and color! 🍊☀️</p>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="./images/slider2.jpg" alt="" class="d-block w-100">
                     <div class="carousel-caption d-block d-md-block">
-                      <h5>Citrus Symphony</h5>
+                      <h5 class="fontw-900">Citrus Symphony</h5>
                       <p>A harmonious arrangement of tangy oranges, luscious lemons, and zesty limes. 🎶🍋</p>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="./images/slider5.jpg" alt="" class="d-block w-100">
                     <div class="carousel-caption d-block d-md-block">
-                      <h5>Citrus Delight</h5>
+                      <h5 class="fontw-900">Citrus Delight</h5>
                       <p>Indulge in the juicy goodness of nature's citrus gems. A refreshing burst of taste awaits! 🍊🍋</p>
                     </div>
                   </div>
@@ -76,62 +79,71 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-                <!-- articles container -->
-                <div class="my-3 read-more-container">
-                    <div class="article">
-                      <h4 class="article-title fontw-700">The Tangy Tale of Citrus: Nature's Zesty Treasures</h4>
-                      <p class="article-content">
-                        Citrus fruits, with their tangy taste and vibrant colors, have long been cherished for their refreshing flavor and numerous health benefits. From the juicy sweetness of oranges to the puckering sourness of lemons, these fruits offer a wide range of culinary delights and nutritional perks. Rich in vitamin C, antioxidants, and essential minerals, citrus fruits not only invigorate the taste buds but also bolster the immune system and promote overall well-being. 
-                        <br>
-                        <span class="read-more-text">
-                              Cultivated in sun-drenched groves around the world, citrus fruits have a rich history dating back centuries. Their versatility in both sweet and savory dishes has made them a staple ingredient in cuisines spanning continents. Whether enjoyed fresh, squeezed into juice, or zestily zested over dishes, citrus adds a burst of sunshine to every meal. Beyond the kitchen, citrus fragrances and oils are used in aromatherapy and skincare, harnessing the uplifting properties of these vibrant fruits.  
-                        </span>
-                      </p>
-                      <span class="read-more-btn">Read More...</span>
-                    </div>
+              <!-- articles container -->
+              <!-- experimental  -->
+              <div class="my-3 read-more-container">
+                <div class="article">
+                  <h4 class="article-title fontw-700">Citrus in Cuisine: Elevating Flavors with Nature's Brightest Offerings</h4>
+                  <p class="article-content">
+                    Citrus fruits are prized by chefs around the world for their ability to elevate flavors and add complexity to dishes. From tangy lemon-infused sauces to aromatic orange-glazed meats, citrus brings a bright and refreshing dimension to culinary creations. Beyond their flavor-enhancing properties, citrus fruits also boast versatile uses in both sweet and savory dishes, from zesty salads to decadent desserts. 
+                    <br>
+                    <span class="collapse" id="articleContentCollapse">
+                      In the world of gastronomy, citrus is celebrated for its ability to balance and enhance other ingredients. The acidity of citrus fruits brightens rich and savory dishes, while their natural sweetness adds depth to desserts. From Mediterranean cuisine to Asian fare, citrus finds its way into an array of dishes, offering a burst of freshness and vibrancy. 
+                    </span>
+                  </p>
+                  <span class="read-more-btn" id="readMoreBtn" role="button" data-bs-toggle="collapse" data-bs-target="#articleContentCollapse" aria-expanded="false" aria-controls="articleContentCollapse">Read More...</span>
                 </div>
+            </div>
+            <!-- end experimental -->
                 <div class="my-3 read-more-container">
-                    <div class="article">
-                      <h4 class="article-title fontw-700">From Grove to Glass: The Journey of Citrus in the World of Beverages</h4>
-                      <p class="article-content">
-                        Citrus fruits play a starring role in the world of beverages, from classic orange juice to innovative cocktails. The journey of citrus from grove to glass is a fascinating one, involving meticulous cultivation, careful harvesting, and precise processing techniques. Whether freshly squeezed for morning refreshment or skillfully mixed into sophisticated cocktails, citrus adds a burst of flavor and brightness to every sip. 
-                        <br>
-                        <span class="read-more-text">
-                          Citrus orchards, stretching across sun-soaked landscapes, yield a bounty of fruits destined for beverage production. From citrus groves, fruits are transported to processing facilities where they undergo juicing, blending, and bottling processes. Whether enjoyed as a refreshing thirst-quencher or incorporated into culinary concoctions, citrus beverages offer a delightful fusion of taste and health benefits. 
-                        </span>
-                      </p>
-                      <span class="read-more-btn">Read More...</span>
-                    </div>
-                </div>
-                <div class="my-3 read-more-container">
-                    <div class="article">
-                      <h4 class="article-title fontw-700">Citrus in Cuisine: Elevating Flavors with Nature's Brightest Offerings</h4>
-                      <p class="article-content">
-                        Citrus fruits are prized by chefs around the world for their ability to elevate flavors and add complexity to dishes. From tangy lemon-infused sauces to aromatic orange-glazed meats, citrus brings a bright and refreshing dimension to culinary creations. Beyond their flavor-enhancing properties, citrus fruits also boast versatile uses in both sweet and savory dishes, from zesty salads to decadent desserts. 
-                        <br>
-                        <span class="read-more-text">
-                          In the world of gastronomy, citrus is celebrated for its ability to balance and enhance other ingredients. The acidity of citrus fruits brightens rich and savory dishes, while their natural sweetness adds depth to desserts. From Mediterranean cuisine to Asian fare, citrus finds its way into an array of dishes, offering a burst of freshness and vibrancy. 
-                        </span>
-                      </p>
-                      <span class="read-more-btn">Read More...</span>
-                    </div>
-                </div>
-                <div class="my-3 read-more-container">
-                    <div class="article">
-                      <h4 class="article-title fontw-700">The Tangy Tale of Citrus: Nature's Zesty Treasures</h4>
-                      <p class="article-content">
-                        Citrus fruits, with their tangy taste and vibrant colors, have long been cherished for their refreshing flavor and numerous health benefits. From the juicy sweetness of oranges to the puckering sourness of lemons, these fruits offer a wide range of culinary delights and nutritional perks. Rich in vitamin C, antioxidants, and essential minerals, citrus fruits not only invigorate the taste buds but also bolster the immune system and promote overall well-being. 
-                        <br>
-                        <span class="read-more-text">
-                              Cultivated in sun-drenched groves around the world, citrus fruits have a rich history dating back centuries. Their versatility in both sweet and savory dishes has made them a staple ingredient in cuisines spanning continents. Whether enjoyed fresh, squeezed into juice, or zestily zested over dishes, citrus adds a burst of sunshine to every meal. Beyond the kitchen, citrus fragrances and oils are used in aromatherapy and skincare, harnessing the uplifting properties of these vibrant fruits.  
-                        </span>
-                      </p>
-                      <span class="read-more-btn">Read More...</span>
-                    </div>
-                </div>
+                  <div class="article">
+                    <h4 class="article-title fontw-700">The Tangy Tale of Citrus: Nature's Zesty Treasures</h4>
+                    <p class="article-content">
+                      Citrus fruits, with their tangy taste and vibrant colors, have long been cherished for their refreshing flavor and numerous health benefits. From the juicy sweetness of oranges to the puckering sourness of lemons, these fruits offer a wide range of culinary delights and nutritional perks. Rich in vitamin C, antioxidants, and essential minerals, citrus fruits not only invigorate the taste buds but also bolster the immune system and promote overall well-being. 
+                      <br>
+                      <span class="read-more-text">
+                            Cultivated in sun-drenched groves around the world, citrus fruits have a rich history dating back centuries. Their versatility in both sweet and savory dishes has made them a staple ingredient in cuisines spanning continents. Whether enjoyed fresh, squeezed into juice, or zestily zested over dishes, citrus adds a burst of sunshine to every meal. Beyond the kitchen, citrus fragrances and oils are used in aromatherapy and skincare, harnessing the uplifting properties of these vibrant fruits.  
+                      </span>
+                    </p>
+                    <span class="read-more-btn">Read More...</span>
+                  </div>
+              </div>
+              <div class="my-3 read-more-container">
+                  <div class="article">
+                    <h4 class="article-title fontw-700">From Grove to Glass: The Journey of Citrus in the World of Beverages</h4>
+                    <p class="article-content">
+                      Citrus fruits play a starring role in the world of beverages, from classic orange juice to innovative cocktails. The journey of citrus from grove to glass is a fascinating one, involving meticulous cultivation, careful harvesting, and precise processing techniques. Whether freshly squeezed for morning refreshment or skillfully mixed into sophisticated cocktails, citrus adds a burst of flavor and brightness to every sip. 
+                      <br>
+                      <span class="read-more-text">
+                        Citrus orchards, stretching across sun-soaked landscapes, yield a bounty of fruits destined for beverage production. From citrus groves, fruits are transported to processing facilities where they undergo juicing, blending, and bottling processes. Whether enjoyed as a refreshing thirst-quencher or incorporated into culinary concoctions, citrus beverages offer a delightful fusion of taste and health benefits. 
+                      </span>
+                    </p>
+                    <span class="read-more-btn">Read More...</span>
+                  </div>
+              </div>
+              <div class="my-3 read-more-container">
+                  <div class="article">
+                    <h4 class="article-title fontw-700">Citrus in Cuisine: Elevating Flavors with Nature's Brightest Offerings</h4>
+                    <p class="article-content">
+                      Citrus fruits are prized by chefs around the world for their ability to elevate flavors and add complexity to dishes. From tangy lemon-infused sauces to aromatic orange-glazed meats, citrus brings a bright and refreshing dimension to culinary creations. Beyond their flavor-enhancing properties, citrus fruits also boast versatile uses in both sweet and savory dishes, from zesty salads to decadent desserts. 
+                      <br>
+                      <span class="read-more-text">
+                        In the world of gastronomy, citrus is celebrated for its ability to balance and enhance other ingredients. The acidity of citrus fruits brightens rich and savory dishes, while their natural sweetness adds depth to desserts. From Mediterranean cuisine to Asian fare, citrus finds its way into an array of dishes, offering a burst of freshness and vibrancy. 
+                      </span>
+                    </p>
+                    <span class="read-more-btn">Read More...</span>
+                  </div>
+              </div>
+
+              <!-- end articles container -->
+            </div>
+            
+
             <div class="col-lg-4">
                 <!-- gallery container -->
-                
+                <div class="container">
+
+                </div>
             </div>
         </div>
     </main>
